@@ -3,4 +3,4 @@ pydata | https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.sort_valu
 stackoverflow | https://stackoverflow.com/questions/16476924/how-to-iterate-over-rows-in-a-dataframe-in-pandas | helped in understanding iteration of dataFrame
 thispointer | https://thispointer.com/drop-first-row-of-pandas-dataframe-3-ways/ | Helped in dropping first row in a dataFrame
 journaldev | https://www.journaldev.com/33302/python-pretty-print-json | Helped in understanding of JSON formatting
-
+stackoverflow | https://stackoverflow.com/questions/61490351/scipy-cosine-similarity-vs-sklearn-cosine-similarity | helped with finding similarity score

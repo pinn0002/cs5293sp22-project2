@@ -36,7 +36,7 @@ def project2(N,input_final):
 
 def dataread():
     #open json and read and convert to a dataFrame
-    with open('..\cs5293sp22-project2\yummly.json', 'r') as file:
+    with open('..\cs5293sp22-project2\docs\yummly.json', 'r') as file:
         data = pd.read_json(file)
     return data
 
