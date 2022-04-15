@@ -9,7 +9,6 @@ Run Procedure:
 
 >Run testfiles using pipenv run python -m pytest
 
-Expected bugs
 
 Libraries used in this project:
 
@@ -115,7 +114,22 @@ To obtain the output in Json format, convert nearest cuisine and closest distanc
  ]
 
 }
+
+project2.py 
+dataread() function is used to read json file and assign it to a dataframe and return dataframe.
+
+LogisticModel(data, input_final)
+LogisticModel takes dataframe and user input ingredients as input parameters and returns cuisine which is a predicted closest cuisine of input ingredients data and   vectors_array_test which is transformed array of input ingredients and Ingredients which is a fit_transform of Tfidfvectorizer vectorizer for Ingredients.
+
+similarityScore(Ingredients , vectors_array_test, data ,N):
+This function takes Ingredients, vectors_array_test, data and N as input parameters and finds cosinesimilarity of input ingredients with original ingredients in the json file and returns a dataframe with sorted similarity scores in descending order and dropping first row of the dataframe and closest distance of predicted cuisine.
+
+project2(N,input_final):
+This function takes N and input ingredients as input and prints the the required output in json format to terminal with closest predicted cuisne value and distance to it in the next line followed by N-neighbors with ids and similarity scores.
+
+
 test_everything.py
-tests every main function
+In this file, we test each function defined in my project2.py file and checks whether every output is having values or not.
+
 
 
