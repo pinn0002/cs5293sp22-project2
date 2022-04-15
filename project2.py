@@ -65,6 +65,7 @@ def LogisticModel(data, input_final):
     cuisine = LabelEncoder().fit(cuisineml1).inverse_transform(testpredictor).tolist()
 
     return cuisine, vectors_array_test , Ingredients
+    print(Ingredients , vectors_array_test, data ,N)
 
 def similarityScore(Ingredients , vectors_array_test, data ,N):
     #Similary score between input to each ingredient is found
