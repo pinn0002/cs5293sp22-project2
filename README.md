@@ -115,5 +115,7 @@ To obtain the output in Json format, convert nearest cuisine and closest distanc
  ]
 
 }
+test_everything.py
+tests every main function
 
 
